@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: block;
+    width: 100%;
+}
+
+
+.cabecera{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background-image: linear-gradient(rgba(84, 85, 84, 0.5),rgb(1, 39, 6)), url("https://www.muypymes.com/wp-content/uploads/2020/01/Green-it.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+.cabecera h1,p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+.cabecera h1{
+    font-size: 7rem;
+    margin-top: 12%;
+}
+
+.cabecera p{
+    font-size: 2rem;
+}
+
+.contenido{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 600px;
+    font-family: 'Raleway',sans-serif;
+    display: flex;
+}
+
+.contenido .cajita{
+    width: 50%;
+}
+
+.cajita h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15%;
+    color: rgb(12, 117, 47);
+}
+.cajita p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding:    0px;
+}
+
+.contenido .cajita2{
+    width: 50%;
+}
+
+.cajita2 img{
+    width: 100%;
+    margin-top: 15%;
+}
+
+.caja{
+    width: 100%;
+    position: absolute;
+    height: 500px;
+    margin-top: 1150px;
+    background-image: url("https://image.freepik.com/vector-gratis/diseno-fondo-blanco-estilo-perspectiva-3d-forma-hexagonal_1017-27558.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.caja h1{
+    color: rgb(12, 117, 47);
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.caja .infos{
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    
+}
+
+
+.infos .info{
+    width: 30%;
+    
+    
+}
+
+
+.infos .info i{
+    color: rgb(12, 117, 47);
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40%;
+    padding: 10px;
+}
+
+.info h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Raleway',sans-serif;
+    
+}
+
+.info p{
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background: rgb(12, 117, 47);
+    margin-top: 1600px;
+    margin-bottom: 0;
+    position: absolute;
+    display: flex;
+}
+
+
+.primer,.segundo,.tercero{
+    width: 33%;
+}
+
+.primer ul{
+   display: flex;
+   margin-top: 16%;
+   margin-left: 17%;
+}
+
+.primer ul li{
+    list-style: none;
+}
+
+.primer img{
+    width: 100px;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.primer i{
+    font-size: 6rem;
+    margin-top: 20%;
+    margin-left: 20%;
+    color: white;
+}
+
+.segundo h3{
+    color: white;
+    margin-top: 20%;
+    font-size: 2rem;
+    font-family:'Raleway', sans-serif;
+}
+
+.tercero h1{
+    color: white;
+    font-size: 2rem;
+    font-family:'Raleway', sans-serif;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tercero ul{
+    width: quto;
+    margin-right: 5%;
+    margin-left: 30%;
+}
+
+.tercero ul li{
+    list-style: square;
+    color: white;
+    font-size: 1.5rem;
+    font-family:'Raleway', sans-serif;
+}
+/*
+.container{
+    width: 100%;
+    height: 650px;
+    /*
+    background-image: url("https://www.pdcahome.com/wp-content/uploads/2013/10/kkk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;*//*
+    position: absolute;
+    display: flex;
+}
+
+.caja{
+    width: 50%;
+}
+.container .caja h1,p{
+    color: #4ba522;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+}
+
+.container h1{
+    font-size: 5rem;
+    margin-top: 50%;
+    
+}
+
+.container p{
+    font-size: 1.5rem;
+}
+
+.definiciones{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 650px;
+   display: flex
+    
+}
+
+.definiciones .holi{
+    width: 50%;
+}
+
+.holi img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.definiciones .cajita{
+    width: 50%;
+}
+
+.definiciones .cajita h1{
+    margin-top: 5%;
+    color: #4ba522;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.cajita p{
+    font-size: 1.2rem;
+    color: black;
+    padding: 5px;
+}*/
+
